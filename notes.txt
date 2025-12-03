@@ -1,0 +1,22 @@
+core of django
+“Don’t repeat yourself.” (DRY)
+“Do the common stuff for the developer automatically.”
+
+a simple tweeting application to understand the workflow of djsngo
+ - creating a virtual environment to install dependencies
+    python -m venv .venv
+    activating it
+    .venv\Scripts\activate
+
+pip install django
+
+pip freeze > requirements.txt
+
+python manage.py makemigrations in your folder
+this will furthur save changes made in databse
+python manage.py migrate
+
+now we will create an admin or superuser
+python manage.py createsuperuser
+
+

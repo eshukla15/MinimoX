@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Django app
+{% endblock %}
+
+{% block content %}
+<div class="mx-2 ">
+    <h1  class="text-center text-success"> Feel free to Tweet </h1>
+    <div  class="text-center"><a class=" btn btn-primary" href="{% url 'tweet_create' %}"> Create a tweet </a></div>
+    <div class="container row gap-3">
+        {% for tweet in tweets %}
+        <div class="card" style="width: 18rem;">
+        {% if tweet.photo %}
+        <img src="{{ tweet.photo.url }}" class="card-img-top">
+        {% endif %}
+        <div class="card-body">
+            <h5 class="card-title">{{tweet.user.username}}</h5>
+            <p class="card-text">{{tweet.text}}</p>
+            {% if tweet.user == user %}
+            <a href="{% url 'tweet_edit' tweet.id%}" class="btn btn-primary">Edit</a>
+            <a href="{% url 'tweet_delete' tweet.id%}" class="btn btn-danger">Delete</a>
+            {% endif %}
+        </div>  
+        </div>
+        {% endfor %}
+    </div>
+
+{% endblock %}

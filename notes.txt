@@ -19,4 +19,46 @@ python manage.py migrate
 now we will create an admin or superuser
 python manage.py createsuperuser
 
+#simply go to chacode.com/docs for easy understanding
 
+you ll have to add static and dynamic lines in settings of your application
+
+startproject starts th whole project, and then 
+everything inside it can be an app (p   ython manage.py startapp abcd)
+create an app when you want a functionality
+
+views will have the method function or which will handle what page or function to load 
+main app settings will have everything
+urls does the routing for you
+
+fullstakcpython.com is another goto resource
+
+everything you add or do just goes in settings.py
+for eg, if you add an template, or app, or files
+
+os.path.join(BASE_DIR, 'templates')
+use this line as template setting
+
+then create a template and add on whatever you need in it
+
+
+okay, you can make a template section and have a html there as layout
+that layout can appear in all files
+
+we can create more templates in app
+and that app can extend the alyout file then
+if you want to change the content, use the blocks and jinja templates
+refer to chaidocs to udnerstand that part
+
+create a model for anythin, i.e. data schema 
+then register it in admin.py
+import it and register
+
+we will now add forms, simply a python file 
+can use django forms
+
+decorators are furthur used to protect route
+instead of checking if the user is logged in before creating a tweeting
+u can use login required decorator instead of writing middleware
+
+you can accept user anywhere since it will be a part of requirements

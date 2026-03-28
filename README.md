@@ -1,4 +1,4 @@
-# 🐦 TweetBar
+# MinimoX
 
 **A lightweight Twitter-style posting app — built from scratch with Django to actually *understand* how web frameworks work.**
 
@@ -212,7 +212,7 @@ No contribution is too small. Fix a typo, improve a template, add a test — it 
 
 ## Closing Note
 
-I built TweetBar because I wanted to *actually understand Django*, not just follow along with a tutorial and forget everything the next day.
+I built minimoX because I wanted to *actually understand Django*, not just follow along with a tutorial and forget everything the next day.
 
 Every feature in this app taught me something — from how Django's ORM maps Python classes to database tables, to how template inheritance keeps your HTML DRY, to how middleware and decorators can protect routes without cluttering your views.
 

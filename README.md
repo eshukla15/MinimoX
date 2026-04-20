@@ -1,6 +1,6 @@
 # MinimoX
 
-**A lightweight Twitter-style posting app — built from scratch with Django to actually *understand* how web frameworks work.**
+**A lightweight posting app — built from scratch with Django to actually *understand* how web frameworks work.**
 
 ---
 
@@ -10,7 +10,7 @@ Ever read a Django tutorial and felt like you understood it... until you tried b
 
 That's exactly where this project came from. I wanted to go beyond "hello world" and build something with **real features** — user accounts, media uploads, CRUD operations, protected routes — the kind of stuff you actually deal with when building real web apps.
 
-TweetBar isn't trying to be the next Twitter. It's a focused, hands-on project to **learn Django by doing**, not just by reading docs. Every file in this repo represents a concept I wrestled with and eventually understood.
+MinimoX is a focused, hands-on project to **learn Django by doing**, not just by reading docs. Every file in this repo represents a concept I wrestled with and eventually understood.
 
 ---
 
